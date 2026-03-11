@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: inter_customer
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: inter_transcations
+    columns:
+      - name: transaction_id
+        tests:
+          - unique
+          - not_null
