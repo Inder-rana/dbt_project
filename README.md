@@ -10,7 +10,9 @@ Raw data in data warehouses is often unstructured and not suitable for analytics
 Raw Data → Staging Layer → Marts Layer → Analytics
 
 <img width="952" height="397" alt="AWS redshift warehouse" src="https://github.com/user-attachments/assets/b47301e8-1b10-43e6-8967-762c92a63ad7" />
+
 <img width="431" height="413" alt="AWS redshift warehouse1" src="https://github.com/user-attachments/assets/5f97acff-5edc-416e-a6ad-44b800f989d3" />
+
 <img width="940" height="389" alt="AWS redshift warehouse2" src="https://github.com/user-attachments/assets/8f93b0f4-a2c6-47a1-bca3-42ff957544a1" />
 
 
