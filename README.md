@@ -43,3 +43,6 @@ Raw Data → Staging Layer → Marts Layer → Analytics
   
 ## Future Improvements
 - Add more advanced tests (relationships, freshness)
+
+Learning resources used:
+https://www.youtube.com/watch?v=C6BNAfaeqXY
