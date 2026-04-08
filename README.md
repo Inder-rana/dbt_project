@@ -1,15 +1,38 @@
-Welcome to your new dbt project!
+# Modern Data Transformation with dbt & Redshift
 
-### Using the starter project
+## Overview
+This project implements a modular ELT pipeline using dbt Cloud and AWS Redshift to transform raw data into analytics-ready datasets.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Problem Statement
+Raw data in data warehouses is often unstructured and not suitable for analytics. This project focuses on building a scalable transformation layer to structure and validate data for downstream use.
 
+## Architecture
+Raw Data → Staging Layer → Marts Layer → Analytics
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Tech Stack
+- dbt Cloud
+- AWS Redshift
+- SQL
+- GitHub
+
+## Key Features
+- Implemented layered data modeling (raw, staging, marts)
+- Built reusable dbt models for transformations
+- Applied version control using GitHub
+- Added data quality tests (null checks, uniqueness constraints)
+- Created analytics-ready tables for BI tools
+
+## Data Model
+- Staging layer: cleaned and standardized raw data
+- Marts layer: business-focused aggregated tables
+
+## Key Results
+- Improved data consistency and reliability through testing
+- Structured data for efficient querying and reporting
+
+## Learnings
+- Gained hands-on experience with modern ELT workflows
+- Learned importance of modular data modeling and testing
+  
+## Future Improvements
+- Add more advanced tests (relationships, freshness)
