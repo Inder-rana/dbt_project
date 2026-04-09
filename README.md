@@ -43,7 +43,7 @@ Raw Data → Staging Layer → Marts Layer → Analytics
   
 ## Future Improvements
 - Add more advanced tests (relationships, freshness)
-- Add more advanced SQL queries like CTEs, window functions, subqueries, complex joins, etc.
+- Add more advanced SQL queries like CTEs, window functions, subqueries, complex joins, snapshots(Slowly changing dimensions), etc.
 
 Learning resources used:
 https://www.youtube.com/watch?v=C6BNAfaeqXY
